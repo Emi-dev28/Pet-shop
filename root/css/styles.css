@@ -1,0 +1,336 @@
+body {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+}
+footer {
+  width: 100vw;
+  height: 100vh;
+}
+/* HEADER */
+#supblock {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  width: 100vw;
+  height: 5vh;
+}
+#sup-paragraph {
+  display: inline-block;
+  font-family: "roboto" sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  color: #f3f3f3;
+  margin-left: 6%;
+}
+#navsup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+}
+#firstlist {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 2rem;
+}
+.liclass {
+  font-family: "roboto" sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #f3f3f3;
+}
+
+.header-section {
+  background-color: #f0a83e;
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 17%;
+  height: 39%;
+  margin-left: 3em;
+}
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  color: #ffffff;
+  gap: 1em;
+  margin-right: 20%;
+}
+
+.back-img {
+  background-image: url("/root/img/bowl-and-pet-daities-on-green-background\ 1.png");
+  width: 100vw;
+  height: 65vh;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2em;
+  width: 100%;
+  height: 68vh;
+}
+#secondlist {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+  margin-top: 2em;
+}
+#center-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: "roboto" sans-serif;
+  font-weight: 400;
+  font-size: 175%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 6%;
+  bottom: 3%;
+  width: 100%;
+  height: 100%;
+  background-color: #f0a83e;
+  color: white;
+  padding: 8%;
+  margin: 5px;
+  border-radius: 4px;
+}
+#paragraphmain {
+  padding-bottom: 5%;
+}
+
+#buttonline {
+  width: 50%;
+}
+
+#product-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 40vh;
+  background-color: #e5e5e5;
+}
+.secd-section {
+  background-color: #e5e5e5;
+  height: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5%;
+}
+
+.class-perro {
+  width: 8vw;
+  height: 14vh;
+}
+#sort-of-title {
+  font-family: "roboto" sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: #3c2313;
+}
+#otraul {
+  list-style-type: none;
+  display: flex;
+}
+.ul-productos {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: "Roboto" sans-serif;
+  font-weight: 400;
+  color: #e5e5e5;
+  gap: 1em;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 25%;
+  margin: 2%;
+  border-radius: 5px;
+}
+#cards-section {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+article p {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  color: #3c2313;
+  font-family: Roboto sans-serif;
+}
+article span {
+  color: #f0a83e;
+  font-family: Roboto sans-serif;
+  border-radius: 5px;
+}
+#anothercontainer {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80vw;
+  height: 15vh;
+}
+#ulcontactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  list-style-type: none;
+}
+#h3delul {
+  font-family: Roboto;
+  font-size: 3em;
+  color: #3c2313;
+}
+section ul li p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40vw;
+  height: 7vh;
+  background-color: #3c2313;
+  color: #ffffff;
+  border-radius: 15px;
+  padding-left: 2%;
+}
+
+#button-contact {
+  width: 10vw;
+  height: 7vh;
+  background-color: #8a8787;
+  border-radius: 15px;
+  color: #ffffff;
+}
+#button-send {
+  width: 10vw;
+  height: 7vh;
+  background-color: #f0a83e;
+  border-radius: 15px;
+  color: #ffffff;
+  margin: 1em;
+}
+#footer-section {
+  position: relative;
+  top: 168%;
+  width: 100vw;
+  height: 15vh;
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#container-buzon {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  width: 50vw;
+  height: 10vh;
+  gap: 1em;
+  margin-left: 1em;
+}
+section div p {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 0.5em;
+}
+#container-form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.correo-button {
+  width: 20vw;
+  height: 7vh;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0.5em;
+}
+#buttonsubmit {
+  background-color: #3c2313;
+  color: #ffffff;
+  font-weight: 200;
+  width: 10vw;
+  height: 7vh;
+  border-radius: 10px;
+}
+
+#last-container {
+  background-color: #3c2313;
+  display:flex;
+  top: 168%;
+  width: 100vw;
+  height: 60%;
+  display:flex;
+}
+.lastul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  gap: 1em;
+}
+.titlesv2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 3%;
+}
+.titlesv3 {
+  color: #8a8787;
+  font-weight: 700;
+  font-size: 1em;
+}
+#ultimacosa {
+  display:flex;
+  flex-direction: column;
+  width:10vw;
+  height:6vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+}
